@@ -41,7 +41,7 @@ vim.opt.undofile = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
--- Keep signcolumn on by default
+-- Keep signcolumn on for changes (git)
 vim.opt.signcolumn = 'yes'
 
 -- Decrease update time
