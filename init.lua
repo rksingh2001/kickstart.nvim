@@ -735,7 +735,7 @@ require('lazy').setup({
     'rebelot/kanagawa.nvim',
     priority = 1000,
     init = function()
-      vim.cmd.colorscheme 'kanagawa'
+      vim.cmd.colorscheme 'randomhue'
 
       -- You can configure highlights by doing something like:
       vim.cmd.hi 'Comment gui=none'
